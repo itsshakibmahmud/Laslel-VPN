@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&family=Yanone+Kaffeesatz&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: none;
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.container{
+    width: 80%;
+    padding: 0 10%;
+    margin: 80px 0;
+}
+
+/*navigation bar style*/
+
+#header-top {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.logo img{
+    width: 20%;
+    
+    height: 80%;
+}
+.logo p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.logo p span{
+    font-size: 20px;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+nav a{
+    margin: auto;
+    padding: 0 5px;
+    color: dimgray;
+    display: block;
+    transition: all 0.2s os ease;
+
+}
+.sign{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+.sign a{
+    display: block;
+    color: dimgray;
+    margin: auto;
+    padding: 5px 10px;
+    font-weight: 600;
+    transition: all .3s os ease;
+
+
+}
+.sign.active{
+    color: black;
+}
+
+
+
+/* hero section style*/
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-box{
+    width: 48%;
+}
+.hero-box h1{
+    font-size: 3em;
+    font-weight: 500;
+    padding: 10px;
+}
+.hero-box h1>span{
+    font-weight: 800;
+    
+}
+.hero-box p{
+    line-height: 25px;
+    color: dimgray;
+    margin-top: 5px;
+
+}
+.btn-btn{
+    height: 50px;
+    width: 200px;
+    margin-top: 15px;
+    background-color: rgb(226, 89, 10);
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+.hero-box img{
+    width: 100%;
+}
+.btn-btn:hover{
+    cursor: pointer;
+    background-color: rgb(221, 70, 10);
+}
+/* showcase Style*/
+#showcase{
+    
+}
+
+.show-container{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgb(216, 210, 208);
+    height: 180px;
+    width: 80%;
+    margin: auto;
+   
+    
+    
+}
+.show-box{
+    display: flex;
+    width: 33%;
+    border-right: 2px solid gainsboro;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+.show-box .show-icon{
+    
+}
